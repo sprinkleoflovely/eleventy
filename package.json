@@ -47,7 +47,8 @@
 		"nunjucks"
 	],
 	"scripts": {
-		"default": "npm run test",
+                "build": "npm run build"
+}{              "default": "npm run test",
 		"test": "npm run test:node && npm run test:ava",
 		"test:ava": "ava --verbose --timeout 20s",
 		"test:node": "node --test test_node/tests.js",
